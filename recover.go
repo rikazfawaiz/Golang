@@ -1,10 +1,9 @@
-//panic untuk menghentikan program yang sedang berjalan
 package main
 
 import "fmt"
 
 func endApp() {
-	message := recover() // menangkap pesan error dari panic dan tetap menjalankan program walau error
+	message := recover() // menangkap pesan error dari panic dan tetap menjalankan program walau error// recover simpen di differ func
 	if message != nil {
 		fmt.Println("Pesan Error :", message)
 	}
@@ -23,3 +22,11 @@ func main() {
 	runApp(true)
 	fmt.Println("test app masih jalan")
 }
+
+
+/*
+nnnmm
+m,mmm
+*/
+
+//vvvvv
