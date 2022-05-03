@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Ups(i int) interface{} {
+func Ups(i int) interface{} { //type apapun bisa
 	if i == 1 {
 		return 1
 	} else if i == 2 {
@@ -13,6 +13,6 @@ func Ups(i int) interface{} {
 }
 
 func main() {
-	i := Ups(3)
+	i := Ups(2)
 	fmt.Println(i)
 }

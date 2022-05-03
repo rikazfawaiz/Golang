@@ -14,7 +14,7 @@ func Pembagian (nilai int, pembagi int) (int, error) {
 }
 
 func main() {
-	nilai, err := Pembagian(100,0)
+	nilai, err := Pembagian(100,5)
 	if err == nil {
 		fmt.Println("hasil",nilai)
 	} else {
